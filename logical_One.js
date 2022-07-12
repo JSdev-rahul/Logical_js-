@@ -1,6 +1,24 @@
 
 // Logical Question  //
+console.log(2-"2")
+console.log("2"-"2")
+console.log("a"-"A")
+console.log(2+"A")
+console.log(2-"A"+2)
+console.log([]+[])
 
+function abc(a){
+    console.log("fun 1")
+}
+function abc(a,b)
+{
+    console.log("fun 2")
+}
+function abc(a,b,c)
+{
+    console.log("fun 3",a,b,c)
+}
+abc(2,3)
 
 function func1() {
     setTimeout(() => {
