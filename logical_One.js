@@ -1,4 +1,11 @@
+console.log('First line')
+const arr = ['a', 'b', 'c']
+arr.forEach((element) => console.log(element))
+console.log('Third line')
 
+
+console.log(typeof new Number("5"))
+console.log(typeof new String("5"))
 // Logical Question  //
 console.log(2-"2")
 console.log("2"-"2")
